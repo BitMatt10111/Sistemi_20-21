@@ -1,12 +1,8 @@
 vet = [1,3,5,7,2,4,6]
 dim=len(vet)
-j=0
-i=dim-1
-for indice in reversed(range(i+1)):
+for i in range(dim-1):
     #print(indice)
-    for j in range(indice):
+    for j in range(dim-i-1):
         if vet[j]>vet[j+1]:
-            temp=vet[j+1]
-            vet[j+1]=vet[j]
-            vet[j]=temp
+            vet[j],vet[j+1]=vet[j+1],vet[j]
 print(vet)
