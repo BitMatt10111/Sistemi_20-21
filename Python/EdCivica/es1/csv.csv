@@ -1,0 +1,13 @@
+mese, numMese, mediaTemp, giaccaDays, scuolaDays, videogamesDays
+Gennaio,1,1.5,31,20,29
+Febbraio,2,2.5,28,22,26
+Marzo,3,7.5,31,26,29
+Aprile,4,11.5,23,20,28
+Maggio,5,15.5,10,23,29
+Giugno,6,20,6,8,28
+Luglio,7,22,2,0,25
+Agosto,8,21,3,0,25
+Settembre,9,17.5,10,15,23
+Ottobre,10,12,23,25,29
+Novembre,11,6,30,27,28
+Dicembre,12,1.5,31,21,29
